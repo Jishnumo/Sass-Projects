@@ -6,6 +6,7 @@
 }
 $main-color: #c8deff;
 $mainFont: 'Roboto', sans-serif;
+$bg-preset:no-repeat center/cover;
 body{
     background: linear-gradient(#a5aae9cc, #8c9af6);
     font-family: $mainFont;
@@ -35,14 +36,15 @@ section.cards{
     right: -50px;
 }
 .image1{
-    background:url(one.jpg);
+    background:url(one.jpg) $bg-preset;
+
 }
 .image2{
-    background:url(two.jpg);
+    background:url(two.jpg) $bg-preset;
 }
 .image3{
-    background:url(three.jpg);
+    background:url(three.jpg) $bg-preset;
 }
 .image4{
-    background:url(four.jpg);
+    background:url(four.jpg) $bg-preset;
 }

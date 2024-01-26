@@ -38,17 +38,17 @@ section.cards {
 }
 
 .image1 {
-  background: url(one.jpg);
+  background: url(one.jpg) no-repeat center/cover;
 }
 
 .image2 {
-  background: url(two.jpg);
+  background: url(two.jpg) no-repeat center/cover;
 }
 
 .image3 {
-  background: url(three.jpg);
+  background: url(three.jpg) no-repeat center/cover;
 }
 
 .image4 {
-  background: url(four.jpg);
+  background: url(four.jpg) no-repeat center/cover;
 }/*# sourceMappingURL=style.css.map */
