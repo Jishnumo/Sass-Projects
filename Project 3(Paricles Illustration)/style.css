@@ -123,4 +123,33 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+footer h1 {
+  text-align: center;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+footer input {
+  padding: 10px 30px;
+  margin-bottom: 1.3rem;
+}
+footer textarea {
+  padding: 40px 100px;
+  margin-bottom: 1.3rem;
+}
+footer button {
+  border: none;
+  background-color: transparent;
+}
+footer a {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+  background-color: #000;
 }/*# sourceMappingURL=style.css.map */
