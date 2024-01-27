@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin button{
+    border :none;
+    padding: 15px 70px;
+    color: white;
+    font-weight: bold;
+    background-color: #141414;
+    border-radius:100px;
+}
+@mixin card{
+    height:450px;
+    width: 400px;
+    background-color: crimson;
+    margin:4rem;
+    border-radius: 10px;
+    padding :30px;
+}
+@mixin write{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+.card{
+    @include card;
+}
+.writings{
+    @include write;
+    .name{
+        font-size:1.67rem;
+        margin-bottom: 4rem;
+
+    }
+    p{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    button{
+        @include button;
+    }
+}
+.p {
+    text-align: center;
+    font-size: 3.1rem;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+    span{
+        font-size: 1.5rem;
+    }
+}
+}
