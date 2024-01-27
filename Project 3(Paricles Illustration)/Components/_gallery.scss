@@ -1,0 +1,23 @@
+.gallery{
+    width: 100%;
+    height: auto;
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        margin:2rem 0;
+    }
+
+}
+.ig{
+    width:400px;
+    height: 450px;
+    margin: 2rem;
+    
+}
+.cont{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

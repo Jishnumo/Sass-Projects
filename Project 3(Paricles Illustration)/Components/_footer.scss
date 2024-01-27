@@ -1,0 +1,30 @@
+footer{
+    h1{
+        text-align: center;
+    }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+input{
+    padding: 10px 30px;
+    margin-bottom: 1.3rem;
+}
+textarea{
+    padding: 40px 100px;
+    margin-bottom: 1.3rem;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+a{
+    padding:10px 25px ;
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+}
+}
