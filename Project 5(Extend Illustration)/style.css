@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.flex-center, header {
+.flex-center, section .cartmaon, header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,4 +25,16 @@ header {
 }
 header p {
   max-width: 700px;
+}
+
+section {
+  height: auto;
+}
+section .cartmaon {
+  flex-direction: row;
+  background-color: aqua;
+}
+section .card1 {
+  height: 800px;
+  width: 850px;
 }/*# sourceMappingURL=style.css.map */

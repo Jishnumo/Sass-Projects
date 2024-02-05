@@ -26,3 +26,18 @@ header{
         max-width: 700px;
     }
 }
+section{
+    height: auto;
+    .cartmaon{
+        
+    @extend .flex-center;
+    
+        flex-direction: row;
+        background-color: aqua;
+    }
+    .card1{
+        
+        height: 800px;
+        width:850px;
+    }
+}
