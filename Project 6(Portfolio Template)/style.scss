@@ -1,1 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import "Componentes\(partials\)/resets";
+@import "Componentes\(partials\)/nav";
+@import "Componentes\(partials\)/header";
+@import "Componentes\(partials\)/projects";
+@import "Componentes\(partials\)/reviews";
+@import "Componentes\(partials\)/about";
+@import "Componentes\(partials\)/footer";
+
+//body
+body {
+  background-color: #211f22;
+}
