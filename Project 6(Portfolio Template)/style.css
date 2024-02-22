@@ -6,27 +6,57 @@
   box-sizing: border-box;
 }
 
-nav {
-  background: linear-gradient(to right, #4f2d62, #ac39ea);
+.container {
   height: 50vh;
-  width: 100%;
+  background: linear-gradient(to right, #4f2d62, #ac39ea);
 }
-nav .container {
+.container nav {
   display: flex;
-  justify-content: end;
-  margin-right: 40px;
+  justify-content: flex-end;
 }
-nav ul {
+.container nav ul {
+  margin-right: 40px;
   margin-top: 20px;
 }
-nav li {
+.container nav ul li {
+  display: inline;
   list-style: none;
+  margin-left: 30px;
 }
-nav a {
+.container nav ul li a {
   text-decoration: none;
   color: #fff;
-  margin-left: 30px;
-  font-size: 1.11rem;
+  font-size: 1.12rem;
+}
+
+.frame-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.frame-container .gradient {
+  background: linear-gradient(to left, #35d08f, #e32e64);
+  width: 72%;
+  height: 76%;
+  position: absolute;
+  bottom: 74px;
+  border-radius: 10px;
+}
+.frame-container header {
+  width: 70%;
+  height: 90%;
+  margin-top: 7rem;
+  background-image: url("Images/simon-de-vries-UQluWXKUn7A-unsplash.jpg");
+  background-size: cover;
+  background-position: 0 -280px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@media screen and (max-width: 700px) {
+  .frame-container header {
+    background-position: center;
+  }
 }
 
 body {
