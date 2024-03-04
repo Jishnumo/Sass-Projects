@@ -212,6 +212,38 @@
   align-self: flex-end;
 }
 
+footer {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+footer h1 {
+  font-size: 2rem;
+}
+footer p {
+  max-width: 400px;
+  line-height: 25px;
+}
+footer .about-company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-container {
+  margin-right: 40px;
+  margin-top: 20px;
+}
+footer .footer-container h1 {
+  margin-bottom: 50px;
+}
+footer .footer-container p {
+  margin-bottom: 20px;
+}
+
 body {
   background-color: #211f22;
 }/*# sourceMappingURL=style.css.map */
